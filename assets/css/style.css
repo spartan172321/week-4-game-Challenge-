@@ -1,0 +1,74 @@
+body{
+	background-image: url("../images/dark_embroidery.png");
+	padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+	font-family: 'Lobster', cursive;
+}
+
+header div{
+	background-color: #99ccff;
+	text-align: center;
+}
+
+.container-fluid{
+	margin-top: 20px;
+}
+
+
+.container{
+	margin-top: 20px;
+}
+
+
+#instructions{
+	background-color: #ffcc99;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#tracker{
+	height:150px;
+}
+
+
+#totalNum{
+	background-color: #66ff66;
+	height: 150px;
+	margin: auto;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 150px;
+	text-align: center;
+	display: inline-block;
+  vertical-align: middle;
+}
+
+#score{
+	background-color: #66b3ff;
+	height: 150px;
+	margin-left: 8%;
+	text-align: center;
+	font-size: 30px;
+	padding: 23px 15px 0px 15px;
+}
+
+#buttons img{
+	border: 1px hidden #ddd;
+  border-radius: 2px;
+}
+
+.counter{
+	background-color: #66ff66;
+}
+
+#totalScore{
+	font-size: 40px;
+	font-weight: 900;
+	color: #003399
+}

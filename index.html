@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <!-- links personal stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="assets/javascript/game.js"></script>
+
+	<title>CrystalsCollector Game</title>
+</head>
+
+<body>
+	<header class="container-fluid">
+		<div class="col-xs-12 col-sm-4">
+		<h1>CrystalsCollector!</h1>
+		</div>
+	</header>
+	<section class="container-fluid">
+		<div class="col-xs-12 col-sm-6" id="instructions">
+			<p>You will be given a random number at the start of the games.</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>You will win the game by matching your total score to random, you lose the game if your total score goes above the random number.</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time when the game starts, the game will change the value of each crystal.</p>
+		</div>
+	</section>
+
+	<section class=" container-fluid row" id="tracker">
+		<div class="col-xs-12 col-sm-5">
+			<div class="col-xs-7 col-sm-7" id="totalNum">
+				<span id="randomNum"></span>
+			</div>
+			<div class="col-xs-4 col-sm-4" id="score">	
+				<p>Win: <span id="win">0</span></p>
+				<p>Loss: <span id="loss">0</span></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="row" id="buttons">
+			<img src="assets/images/blue_gem.JPG" class="col-xs-3 col-sm-1" id="blue">
+			<img src="assets/images/green_gem.jpg" class="col-xs-3 col-sm-1" id="green">
+			<img src="assets/images/purple_gem.JPG" class="col-xs-3 col-sm-1" id="purple">
+			<img src="assets/images/red_gem.JPG" class="col-xs-3 col-sm-1" id="red">
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="col-xs-8 col-sm-3 counter">
+			<h3>Your Total Score is:</h3>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="col-xs-8 col-sm-3 counter">
+			<div id="totalScore">0</div>
+		</div>
+	</section>
+</body>
+
+</html>
